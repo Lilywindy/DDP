@@ -1,0 +1,18 @@
+---
+title: "Week2 assignment"
+author: "Wanhao"
+date: "February 14, 2017"
+output: html_document
+---
+
+```{r, echo = FALSE}
+
+library("leaflet")
+
+my_map <- leaflet() %>%
+          addTiles() %>%
+          addMarkers(lng = -87.623177 ,lat= 41.881832,
+                     popup = "Windy City")
+my_map
+
+```
