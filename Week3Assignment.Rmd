@@ -1,0 +1,24 @@
+---
+title: "Week3 Assignment"
+author: "Wanhao"
+date: "February 15, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library("plotly")
+```
+
+
+
+## Heatmap
+
+```{r, echo = FALSE}
+
+data = matrix(rnorm(500*500), nrow = 500, ncol = 500)
+plot_ly(z= data, type = "heatmap")
+```
+
+
+
