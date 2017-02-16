@@ -1,3 +1,3 @@
 # DDP
 
-This is for the 2nd assignment of DDP.
+This is for assignments of DDP.
